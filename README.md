@@ -10,8 +10,7 @@ The dataset used this project is sourced from DataCamp. It contains information 
 Given below is the context and Use-case description:
 
 ![17346145983872091104595490281314](https://github.com/user-attachments/assets/b5589b06-6772-44f6-8387-0163cea123d9)
-
-(source: DataCamp)
+  (source: DataCamp)
 
 Measuring essential soil metrics such as nitrogen, phosphorous, potassium levels, and pH value is an important aspect of assessing soil condition. However, it can be an expensive and time-consuming process, which can cause farmers to prioritize which metrics to measure based on their budget constraints.
 
