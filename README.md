@@ -17,15 +17,15 @@ _Farmers have various options when it comes to deciding which crop to plant each
 
 _A farmer reached out to you as a machine learning expert for assistance in selecting the best crop for his field. They've provided you with a dataset called soil_measures.csv, which contains:_
 
-_"N": Nitrogen content ratio in the soil_
+- _"N": Nitrogen content ratio in the soil_
 
-_"P": Phosphorous content ratio in the soil_
+- _"P": Phosphorous content ratio in the soil_
 
-_"K": Potassium content ratio in the soil_
+- _"K": Potassium content ratio in the soil_
 
-_"pH" value of the soil_
+- _"pH" value of the soil_
 
-_"crop": categorical values that contain various crops (target variable)._
+- _"crop": categorical values that contain various crops (target variable)._
 
 _Each row in this dataset represents various measures of the soil in a particular field. Based on these measurements, the crop specified in the "crop" column is the optimal choice for that field._
 
@@ -67,12 +67,32 @@ Development environment: Jupyter Notebook
 
 ## 📈 Results
 
-The Logistic Regression model achieved:
+![17346196235783475758219527913729](https://github.com/user-attachments/assets/12fd3f66-5041-40a2-88ae-e34ea8be2d79)
 
-Accuracy: 88%
+### Training Results
 
-Precision: 87%
+- Train Accuracy: 58.41%
 
-Recall: 89%
+- Average Training Loss: 0.001608
 
-F1-Score: 88%
+- Precision: 0.5116
+
+- Recall: 0.5841
+
+- F1 Score: 0.5269
+
+![17346198756731150339912929603600](https://github.com/user-attachments/assets/920cb33e-8b76-4405-be75-85a866b74fce)
+
+Most Important Feature is: K (Potassium)
+
+### Testing Results
+
+- Test Accuracy: 51.59%
+
+- Test Loss: 0.006252
+
+- Precision: 0.4866
+
+- Recall: 0.5159
+
+- F1 Score: 0.4382
