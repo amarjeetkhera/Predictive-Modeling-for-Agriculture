@@ -1,15 +1,13 @@
-# 🌱 Predictive Modeling for Agriculture
+# Predictive Modeling for Agriculture
 
-## 📄 Project Overview
+## Project Overview
 
-This project is focused on building a predictive model to classify different crops based on the soil conditions. The contextual idea behind this project is to leverage data analysis and machine learning methods to help farmers choose the best crops suitable for the chemical composition of their soil. The inspiration is based on the un-guided project offered by DataCamp. Although DataCamp instructs the users to implement this project using the Sci-kit learn library for model building, in this repository a different approach has been implemented which utilises a custom-built function for the Logistic Regression model.
+This project is focused on building a recommendation model for recommending the most suitable crop to grow based on the soil conditions. The contextual idea behind this project is to leverage data analysis and machine learning methods to help farmers choose the best crops suitable for the chemical composition of their soil. The inspiration is based on the un-guided project offered by DataCamp. Although DataCamp instructs the users to implement this project using the Sci-kit learn library for model building, in this repository a different approach has been implemented which utilises a custom-built function for the Logistic Regression model.
 
-## 📂 Description
+## Description
 
 The dataset used this project is sourced from DataCamp. It contains information on different chemical elements which play a vital role in forming the soil composition which influences the selection of crops.
 Given below is the context and Use-case description sourced from DataCamp:
-
-![17346145983872091104595490281314](https://github.com/user-attachments/assets/b5589b06-6772-44f6-8387-0163cea123d9)
 
 _Measuring essential soil metrics such as nitrogen, phosphorous, potassium levels, and pH value is an important aspect of assessing soil condition. However, it can be an expensive and time-consuming process, which can cause farmers to prioritize which metrics to measure based on their budget constraints._
 
@@ -39,7 +37,7 @@ Labels: Multi-class (22 different types of crops)
 Data Split: 80 (training) - 20 (testing) split.
 
 
-## 📊 Key Features
+## Key Features
 
 - Logistic Regression model implemented entirely from scratch (without Scikit-learn or similar libraries).
 - Gradient Descent optimization for weight updates.
@@ -54,7 +52,7 @@ Data Split: 80 (training) - 20 (testing) split.
   - Confusion Matrix
   - Feature Importance Bar Chart
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 Programming language: Python
 
@@ -65,7 +63,7 @@ Development environment: Jupyter Notebook
 - Data visualization: `matplotlib` & `seaborn`
 - For comparison metrics like confusion matrix and accuracy score: `scikit-learn`
 
-## 📈 Results
+## Results
 
 ![17346196235783475758219527913729](https://github.com/user-attachments/assets/12fd3f66-5041-40a2-88ae-e34ea8be2d79)
 
